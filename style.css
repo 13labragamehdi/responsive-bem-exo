@@ -187,5 +187,29 @@ nav
 {
     height: 76px;
 }
-
+.main__container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
 }
+.main__section__article
+{
+    width: 300px;
+}
+.footer__container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+}
+@media screen and (min-width: 1280px) {
+.main__container
+{
+    display: flex;
+    justify-content: center;
+}
+}
+    
+
